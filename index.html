@@ -14,9 +14,17 @@
         <button @click="denglu" class="denglu"> 管理者登陆</button>
         <div>
                 <h1 class="h1">今日要闻</h1>
+                <div id="news1" v-for="(item, index) in xinwen" :key="index" class="news11">
+                    {{index + 1 + '、' + item}}
+                    <br>
+                </div>
         </div>
         <div>
             <h2 class="h2">热点精选</h2>
+            <div id="news2" v-for="(item, index) in xinwen2" :key="index" class="news22">
+                {{index + 1 + '、' + item}}
+                 <br>
+            </div>
         </div>
     </div>
     <script src="index.js"></script>

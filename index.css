@@ -24,3 +24,20 @@
     top: 25px;
     right: 25px;
 }
+.news11{
+    position: relative;
+    top: 100px;
+    color: aliceblue;
+    left: 8px;
+}
+.news22{
+    position: relative;
+    top: 270px;
+    color: black;
+    left: 8px;
+}
+.anniu{
+    position: absolute;
+    top: 100px;
+    color: red;
+}
